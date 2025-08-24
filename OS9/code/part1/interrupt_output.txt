@@ -1,0 +1,68 @@
+            CPU0       CPU1       
+   0:         32          0  IO-APIC    2-edge      timer
+   1:          0       3138  IO-APIC    1-edge      i8042
+   6:          0          2  IO-APIC    6-edge      floppy
+   8:          0          0  IO-APIC    8-edge      rtc0
+   9:          0          0  IO-APIC    9-fasteoi   acpi
+  12:         15          0  IO-APIC   12-edge      i8042
+  14:          0          0  IO-APIC   14-edge      ata_piix
+  15:          0          0  IO-APIC   15-edge      ata_piix
+  16:       3800          0  IO-APIC   16-fasteoi   vmwgfx, snd_ens1371
+  17:          0      23475  IO-APIC   17-fasteoi   ehci_hcd:usb2, ioc0
+  18:       1993          0  IO-APIC   18-fasteoi   uhci_hcd:usb1
+  19:          0       9998  IO-APIC   19-fasteoi   ens33
+  24:          0          0 PCI-MSI-0000:00:15.0    0-edge      PCIe PME, pciehp
+  25:          0          0 PCI-MSI-0000:00:15.1    0-edge      PCIe PME, pciehp
+  26:          0          0 PCI-MSI-0000:00:15.2    0-edge      PCIe PME, pciehp
+  27:          0          0 PCI-MSI-0000:00:15.3    0-edge      PCIe PME, pciehp
+  28:          0          0 PCI-MSI-0000:00:15.4    0-edge      PCIe PME, pciehp
+  29:          0          0 PCI-MSI-0000:00:15.5    0-edge      PCIe PME, pciehp
+  30:          0          0 PCI-MSI-0000:00:15.6    0-edge      PCIe PME, pciehp
+  31:          0          0 PCI-MSI-0000:00:15.7    0-edge      PCIe PME, pciehp
+  32:          0          0 PCI-MSI-0000:00:16.0    0-edge      PCIe PME, pciehp
+  33:          0          0 PCI-MSI-0000:00:16.1    0-edge      PCIe PME, pciehp
+  34:          0          0 PCI-MSI-0000:00:16.2    0-edge      PCIe PME, pciehp
+  35:          0          0 PCI-MSI-0000:00:16.3    0-edge      PCIe PME, pciehp
+  36:          0          0 PCI-MSI-0000:00:16.4    0-edge      PCIe PME, pciehp
+  37:          0          0 PCI-MSI-0000:00:16.5    0-edge      PCIe PME, pciehp
+  38:          0          0 PCI-MSI-0000:00:16.6    0-edge      PCIe PME, pciehp
+  39:          0          0 PCI-MSI-0000:00:16.7    0-edge      PCIe PME, pciehp
+  40:          0          0 PCI-MSI-0000:00:17.0    0-edge      PCIe PME, pciehp
+  41:          0          0 PCI-MSI-0000:00:17.1    0-edge      PCIe PME, pciehp
+  42:          0          0 PCI-MSI-0000:00:17.2    0-edge      PCIe PME, pciehp
+  43:          0          0 PCI-MSI-0000:00:17.3    0-edge      PCIe PME, pciehp
+  44:          0          0 PCI-MSI-0000:00:17.4    0-edge      PCIe PME, pciehp
+  45:          0          0 PCI-MSI-0000:00:17.5    0-edge      PCIe PME, pciehp
+  46:          0          0 PCI-MSI-0000:00:17.6    0-edge      PCIe PME, pciehp
+  47:          0          0 PCI-MSI-0000:00:17.7    0-edge      PCIe PME, pciehp
+  48:          0          0 PCI-MSI-0000:00:18.0    0-edge      PCIe PME, pciehp
+  49:          0          0 PCI-MSI-0000:00:18.1    0-edge      PCIe PME, pciehp
+  50:          0          0 PCI-MSI-0000:00:18.2    0-edge      PCIe PME, pciehp
+  51:          0          0 PCI-MSI-0000:00:18.3    0-edge      PCIe PME, pciehp
+  52:          0          0 PCI-MSI-0000:00:18.4    0-edge      PCIe PME, pciehp
+  53:          0          0 PCI-MSI-0000:00:18.5    0-edge      PCIe PME, pciehp
+  54:          0          0 PCI-MSI-0000:00:18.6    0-edge      PCIe PME, pciehp
+  55:          0          0 PCI-MSI-0000:00:18.7    0-edge      PCIe PME, pciehp
+  56:       1553          0 PCI-MSI-0000:02:04.0    0-edge      ahci[0000:02:04.0]
+  57:          0          0 PCI-MSIX-0000:00:07.7    0-edge      vmw_vmci
+  58:          0          0 PCI-MSIX-0000:00:07.7    1-edge      vmw_vmci
+  59:          0          0 PCI-MSIX-0000:00:07.7    2-edge      vmw_vmci
+ NMI:          0          0   Non-maskable interrupts
+ LOC:     103444      97367   Local timer interrupts
+ SPU:          0          0   Spurious interrupts
+ PMI:          0          0   Performance monitoring interrupts
+ IWI:          0          1   IRQ work interrupts
+ RTR:          0          0   APIC ICR read retries
+ RES:       2059       1758   Rescheduling interrupts
+ CAL:      62832      49480   Function call interrupts
+ TLB:       1684       1673   TLB shootdowns
+ TRM:          0          0   Thermal event interrupts
+ THR:          0          0   Threshold APIC interrupts
+ DFR:          0          0   Deferred Error APIC interrupts
+ MCE:          0          0   Machine check exceptions
+ MCP:          3          3   Machine check polls
+ ERR:          0
+ MIS:          0
+ PIN:          0          0   Posted-interrupt notification event
+ NPI:          0          0   Nested posted-interrupt event
+ PIW:          0          0   Posted-interrupt wakeup event
